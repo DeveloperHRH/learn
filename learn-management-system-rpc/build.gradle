@@ -1,0 +1,18 @@
+
+group 'com.learn.management.system.rpc'
+version '1.0.1'
+
+dependencies {
+    //------------------------------------swaggerAPI文档--------------------------------
+    compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.7.0'
+    //-----------------------------------------end--------------------------------------------
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
+    compile group: 'com.github.pagehelper', name: 'pagehelper-spring-boot-starter', version: '1.2.3'
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: "${springBootVersion}"
+}
+
+
+// 将该项目打成jar包提供给依赖该项目的工程使用
+jar{
+    enabled true
+}

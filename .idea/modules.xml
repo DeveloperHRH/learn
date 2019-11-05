@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-common/com.learn.common.learn-common.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-common/com.learn.common.learn-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-common/com.learn.common.learn-common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-common/com.learn.common.learn-common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-common/com.learn.common.learn-common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-common/com.learn.common.learn-common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.learn.learn.iml" filepath="$PROJECT_DIR$/.idea/modules/com.learn.learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-management-system/com.learn.management.system.learn-management-system.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-management-system/com.learn.management.system.learn-management-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-management-system/com.learn.management.system.learn-management-system.main.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-management-system/com.learn.management.system.learn-management-system.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-management-system/com.learn.management.system.learn-management-system.test.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-management-system/com.learn.management.system.learn-management-system.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-management-system-rpc/com.learn.management.system.rpc.learn-management-system-rpc.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-management-system-rpc/com.learn.management.system.rpc.learn-management-system-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-management-system-rpc/com.learn.management.system.rpc.learn-management-system-rpc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-management-system-rpc/com.learn.management.system.rpc.learn-management-system-rpc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-management-system-rpc/com.learn.management.system.rpc.learn-management-system-rpc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-management-system-rpc/com.learn.management.system.rpc.learn-management-system-rpc.test.iml" />
+    </modules>
+  </component>
+</project>

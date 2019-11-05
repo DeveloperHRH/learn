@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.learn.management.dao.LearnSysUserDao">
+
+    <sql id="dynamicWhere">
+        <where>
+            <if test="_parameter.containsKey('ids') and ids != null and ids != ''">
+                and id in (${ids})
+            </if>
+            <if test="_parameter.containsKey('id') and id != null and id != ''">
+                and id = #{id}
+            </if>
+            <if test="_parameter.containsKey('headImg') and headImg != null and headImg !=''">
+                and head_img like concat(#{headImg},'%')
+            </if>
+            <if test="_parameter.containsKey('realName') and realName != null and realName !=''">
+                and real_name like concat(#{realName},'%')
+            </if>
+            <if test="_parameter.containsKey('age') and age != null and age > 0">
+                and age = #{age}
+            </if>
+            <if test="_parameter.containsKey('sex') and sex != null and sex > 0">
+                and sex = #{sex}
+            </if>
+            <if test="_parameter.containsKey('deleted') and deleted != null and deleted >= 0">
+                and deleted = #{deleted}
+            </if>
+        </where>
+    </sql>
+
+    <sql id="baseColumn">
+        id,head_img,real_name,age,sex,deleted
+    </sql>
+
+    <select id="select" resultType="com.learn.management.system.rpc.vo.LearnSysUserVO">
+        select  <include refid="baseColumn"/>   from learn_sys_user
+            <include refid="dynamicWhere"/>
+    </select>
+
+    <select id="count" resultType="int">
+        select count(0) from learn_sys_user
+        <include refid="dynamicWhere" />
+    </select>
+
+    <select id="list" resultType="com.learn.management.system.rpc.vo.LearnSysUserVO">
+        select  <include refid="baseColumn"/>  from learn_sys_user
+        <include refid="dynamicWhere" />
+        <if test="_parameter.containsKey('orderBy') and orderBy!=null">
+            order by ${orderBy}
+        </if>
+    </select>
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id" parameterType="com.learn.management.domain.LearnSysUser">
+        insert into learn_sys_user (head_img,real_name,age,sex,deleted)
+        values (#{headImg},#{realName},#{age},#{sex},#{deleted})
+    </insert>
+
+    <sql id="baseSet">
+        <set>
+            <if test="headImg != null">
+                head_img=#{headImg},
+            </if>
+            <if test="realName != null">
+                real_name=#{realName},
+            </if>
+            <if test="age != null">
+                age=#{age},
+            </if>
+            <if test="sex != null">
+                sex=#{sex},
+            </if>
+            <if test="deleted != null">
+                deleted=#{deleted},
+            </if>
+        </set>
+    </sql>
+
+    <update id="update" parameterType="com.learn.management.domain.LearnSysUser">
+        update learn_sys_user 
+         <include refid="baseSet"/>
+        where id=#{id}
+    </update>
+
+    <insert id="insertPart" useGeneratedKeys="true" keyProperty="id" parameterType="com.learn.management.domain.LearnSysUser">
+        insert learn_sys_user 
+         <include refid="baseSet"/>
+    </insert>
+
+    <update id="updateStatus">
+        update learn_sys_user 
+        set status = #{status}
+        where id= #{id}
+    </update>
+
+    <update id="delete">
+        update learn_sys_user 
+        set deleted = 1
+        where id= #{id}
+    </update>
+
+</mapper>

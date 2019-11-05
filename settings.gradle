@@ -1,0 +1,5 @@
+rootProject.name = 'learn'
+include 'learn-common'
+include 'learn-management-system'
+include 'learn-management-system-rpc'
+

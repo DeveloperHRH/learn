@@ -1,0 +1,47 @@
+group 'com.learn'
+version '1.0.1'
+
+
+
+subprojects {
+    buildscript {
+        ext {
+            springBootVersion = '2.1.0.RELEASE'
+            //springBootVersion = '1.5.9.RELEASE'
+        }
+        repositories {
+            maven { url 'http://maven.aliyun.com/mvn/repository/' }
+            maven { url 'https://mvnrepository.com/' }
+            mavenLocal()
+            mavenCentral()
+            maven { url "https://plugins.gradle.org/m2/" }
+        }
+        dependencies {
+            classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}"
+            classpath "gradle.plugin.com.arenagod.gradle:mybatis-generator-plugin:1.4"
+            classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.6.2"
+        }
+    }
+
+
+    apply plugin: 'java'
+    apply plugin: 'idea'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    repositories {
+        maven { url 'http://maven.aliyun.com/mvn/repository/' }
+        maven { url 'https://mvnrepository.com/' }
+        mavenLocal()
+        mavenCentral()
+        //maven { url "https://plugins.gradle.org/m2/" }
+    }
+
+    configurations {
+        compile.exclude module: 'slf4j-log4j12'
+        compile.exclude module: 'log4j-slf4j-impl'
+    }
+
+}
+

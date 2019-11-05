@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="learn-management-system.main:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de07f42c-4db2-421d-bbfc-7306d498d23a" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/learn-common/.gradle/" />
+    <ignored path="$PROJECT_DIR$/learn-common/build/" />
+    <ignored path="$PROJECT_DIR$/learn-common/out/" />
+    <ignored path="$PROJECT_DIR$/learn-management-system/.gradle/" />
+    <ignored path="$PROJECT_DIR$/learn-management-system/build/" />
+    <ignored path="$PROJECT_DIR$/learn-management-system/out/" />
+    <ignored path="$PROJECT_DIR$/learn-management-system-rpc/.gradle/" />
+    <ignored path="$PROJECT_DIR$/learn-management-system-rpc/build/" />
+    <ignored path="$PROJECT_DIR$/learn-management-system-rpc/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/learn-management-system">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="learn" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="learn" type="f1a62948:ProjectNode" />
+                <item name=":learn-management-system" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="learn" type="f1a62948:ProjectNode" />
+                <item name=":learn-management-system" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="learn" type="f1a62948:ProjectNode" />
+                <item name=":learn-management-system" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="learn" type="f1a62948:ProjectNode" />
+                <item name=":learn-management-system" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="learn" type="f1a62948:ProjectNode" />
+                <item name=":learn-management-system-rpc" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/controller/LearnSysUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/learn-common/src/main/java/com/learn/management/base/BaseDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>查询多个id</find>
+      <find>IRedisService</find>
+      <find>Siberian.wen</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>HRH</replace>
+    </replaceStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/learn-management-system/src/main/resources/logback-spring.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/learn-management-system/src/main/resources/application.properties" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/learn-management-system/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/learn-common/src/main/java/com/learn/management/util/AutoGenerator.java" />
+        <option value="$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/controller/serController.java" />
+        <option value="$PROJECT_DIR$/learn-management-system-rpc/src/main/java/com/learn/management/system/rpc/service/IRedisService.java" />
+        <option value="$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/impl/RedisServiceImpl.java" />
+        <option value="$PROJECT_DIR$/learn-management-system/src/test/java/com/learn/management/auto/AutoGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/controller/LearnSysUserController.java" />
+        <option value="$PROJECT_DIR$/learn-common/src/main/java/com/learn/management/base/BaseDao.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="learn-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="learn-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="learn-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="learn-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="learn-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="learn-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="learn-management-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="learn-management-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="learn-management-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="learn-management-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="learn-management-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="learn-management-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572944294562" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hd/Fishery/fishery_pc_sourceCode" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.learn.management.system.rpc.service" />
+      <recent name="com.learn.management.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\learn\learn-common\src\main\java\com\learn\management\util" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.learn:learn-management-system [assemble]">
+    <configuration name="learn:learn-management-system [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/learn-management-system" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="learn:learn-management-system [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/learn-management-system" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="learn:learn-management-system [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/learn-management-system" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AutoGeneratorTest.testGenerate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.learn.management.system.learn-management-system.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.management.auto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learn.management.auto" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.management.auto.AutoGeneratorTest" />
+      <option name="METHOD_NAME" value="testGenerate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearnManagementSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.learn.management.system.learn-management-system.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.management.LearnManagementSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.learn:learn-management-system [clean]" />
+        <item itemvalue="Gradle.learn:learn-management-system [bootJar]" />
+        <item itemvalue="Gradle.learn:learn-management-system [assemble]" />
+        <item itemvalue="JUnit.AutoGeneratorTest.testGenerate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de07f42c-4db2-421d-bbfc-7306d498d23a" name="Default Changelist" comment="" />
+      <created>1568105532910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568105532910</updated>
+      <workItem from="1568105538123" duration="1402000" />
+      <workItem from="1572341743347" duration="1972000" />
+      <workItem from="1572396870429" duration="3602000" />
+      <workItem from="1572402709892" duration="3217000" />
+      <workItem from="1572419522440" duration="17000" />
+      <workItem from="1572754556230" duration="24000" />
+      <workItem from="1572944081069" duration="125000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AutoGeneratorTest_testGenerate - 2019.10.29 at 18h 01m 40s.xml">
+      <configuration name="AutoGeneratorTest.testGenerate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoGeneratorTest_testGenerate - 2019.10.29 at 18h 07m 04s.xml">
+      <configuration name="AutoGeneratorTest.testGenerate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoGeneratorTest_testGenerate - 2019.10.29 at 18h 07m 13s.xml">
+      <configuration name="AutoGeneratorTest.testGenerate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoGeneratorTest_testGenerate - 2019.10.30 at 08h 56m 55s.xml">
+      <configuration name="AutoGeneratorTest.testGenerate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoGeneratorTest_testGenerate - 2019.10.30 at 08h 59m 03s.xml">
+      <configuration name="AutoGeneratorTest.testGenerate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoGeneratorTest_testGenerate - 2019.10.30 at 09h 45m 56s.xml">
+      <configuration name="AutoGeneratorTest.testGenerate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoGeneratorTest_testGenerate - 2019.10.30 at 09h 50m 49s.xml">
+      <configuration name="AutoGeneratorTest.testGenerate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoGeneratorTest_testGenerate - 2019.10.30 at 10h 26m 13s.xml">
+      <configuration name="AutoGeneratorTest.testGenerate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoGeneratorTest_testGenerate - 2019.10.30 at 10h 38m 12s.xml">
+      <configuration name="AutoGeneratorTest.testGenerate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoGeneratorTest_testGenerate - 2019.10.30 at 10h 42m 07s.xml">
+      <configuration name="AutoGeneratorTest.testGenerate" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10359000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.269437" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32956153" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.59688824" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.6633663" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.32956153" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25938338" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32956153" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.59688824" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.6633663" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.32956153" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/learn-management-system-rpc/src/main/java/com/learn/management/system/rpc/dto/AnSysUserDTO.java" />
+    <entry file="file://$PROJECT_DIR$/learn-management-system-rpc/src/main/java/com/learn/management/system/rpc/dto/XpOrderValidateFailLogDTO.java" />
+    <entry file="file://$PROJECT_DIR$/learn-management-system-rpc/src/main/java/com/learn/management/system/rpc/vo/AnSysUserVO.java" />
+    <entry file="file://$PROJECT_DIR$/learn-management-system-rpc/src/main/java/com/learn/management/system/rpc/vo/XpOrderValidateFailLogVO.java" />
+    <entry file="file://$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/controller/PageController.java" />
+    <entry file="file://$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/controller/AnSysUserController.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.11/2a2f78be7ef674b6486f7b5463f05f40da5e163/logback-classic-1.1.11-sources.jar!/ch/qos/logback/classic/db/DBAppender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1256">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/impl/SysUserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/learn-management-system-rpc/src/main/java/com/learn/management/system/rpc/service/ISysUserService.java" />
+    <entry file="file://$PROJECT_DIR$/learn-management-system-rpc/src/main/java/com/learn/management/system/rpc/vo/SysUserVO.java" />
+    <entry file="file://$PROJECT_DIR$/learn-management-system/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="23" column="77" lean-forward="true" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/controller/serController.java" />
+    <entry file="file://$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/domain/SysUser.java" />
+    <entry file="file://$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/controller/SysUserController.java" />
+    <entry file="file://$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/dao/SysUserDao.java" />
+    <entry file="file://$PROJECT_DIR$/learn-management-system-rpc/src/main/java/com/learn/management/system/rpc/service/IRedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-common/src/main/java/com/learn/management/util/AutoGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="1464" selection-start-line="1464" selection-end-line="1464" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-management-system-rpc/src/main/java/com/learn/management/system/rpc/dto/SysUserDTO.java" />
+    <entry file="file://$PROJECT_DIR$/learn-management-system/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-management-system-rpc/src/main/java/com/learn/management/system/rpc/dto/LearnSysUserDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/SpringContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-management-system/src/test/java/com/learn/management/auto/AutoGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="103" selection-start-line="26" selection-start-column="103" selection-end-line="26" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/LearnManagementSystemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-common/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/impl/RedisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="212" selection-start-line="212" selection-end-line="212" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-management-system/src/main/java/com/learn/management/controller/LearnSysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-common/src/main/java/com/learn/management/base/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>learn-management-system.main:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>management.system|learn</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: ch.qos.logback:logback-classic:1.1.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
