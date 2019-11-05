@@ -1,0 +1,7 @@
+启动步骤
+1.先将learn.sql导入本地的数据库,并修改 learn-management-system 项目下的application.properties文件相关数据库配置
+2.进入到 learn-management-system 项目中 test 下的 AutoGeneratorTest 自动生成代码
+
+
+使用说明：
+该架构虽然集成了redis , 但目前已关闭,还需进入 learn-management-system 项目下的application.properties文件中将相关配置信息打开
