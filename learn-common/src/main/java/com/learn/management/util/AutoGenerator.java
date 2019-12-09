@@ -1011,9 +1011,9 @@ public class AutoGenerator {
 
 
             ibuf.append("/**\n").append(" * @author HRH\n").append(" */\n");
-            ibuf.append("@Api(tags = \"").append(className).append("Controller").append("\")\n");
+            ibuf.append("@Api(value = \""+className+"\" , description = \""+className+"Controller\" , tags = \"").append(className).append("Controller").append("\")\n");
             ibuf.append("@RestController\n");
-            ibuf.append("@RequestMapping(\"/" + className.toLowerCase()).append("\")\n");
+            ibuf.append("@RequestMapping(\"/" + className+"Controller").append("\")\n");
 
             ibuf.append("public class ").append(className).append("Controller").append("{\n\n");
             ibuf.append("\tprivate final Logger logger = LoggerFactory.getLogger(").append(className).append("Controller").append(".class);\n\n");

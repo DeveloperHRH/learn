@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact name="learn-management-system:jar">
+    <output-path>$PROJECT_DIR$/learn-management-system/out/artifacts/learn-management-system</output-path>
+    <root id="root">
+      <element id="archive" name="com.learn.management.system.learn-management-system.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/learn-management-system/src/main/resources/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

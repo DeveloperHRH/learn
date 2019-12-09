@@ -22,9 +22,9 @@ import java.util.HashMap;
 /**
  * @author HRH
  */
-@Api(tags = "用户管理")
+@Api(value = "LearnSysUser" , description = "LearnSysUserController" , tags = "LearnSysUserController")
 @RestController
-@RequestMapping("/learnsysuser")
+@RequestMapping("/LearnSysUserController")
 public class LearnSysUserController{
 
 	private final Logger logger = LoggerFactory.getLogger(LearnSysUserController.class);
