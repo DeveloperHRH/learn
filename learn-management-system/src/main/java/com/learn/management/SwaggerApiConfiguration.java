@@ -25,7 +25,7 @@ import static com.google.common.collect.Lists.newArrayList;
  */
 @Configuration
 @EnableSwagger2
-@PropertySource(value = {"classpath:swagger_dev.properties"}, ignoreResourceNotFound = true, encoding = "utf-8")
+@PropertySource(value = {"classpath:swagger_prod.properties"}, ignoreResourceNotFound = true, encoding = "utf-8")
 public class SwaggerApiConfiguration {
 
     @Value("${swagger.host}")

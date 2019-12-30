@@ -1,6 +1,8 @@
 package com.learn.management.controller;
 
 import com.github.pagehelper.PageInfo;
+import com.learn.management.impl.RedisServiceImpl;
+import com.learn.management.system.rpc.service.IRedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -22,7 +24,7 @@ import java.util.HashMap;
 /**
  * @author HRH
  */
-@Api(value = "LearnSysUser" , description = "LearnSysUserController" , tags = "LearnSysUserController")
+@Api(value = "LearnSysUser" , description = "LearnSysUserController" , tags = "用户管理")
 @RestController
 @RequestMapping("/LearnSysUserController")
 public class LearnSysUserController{
@@ -32,9 +34,19 @@ public class LearnSysUserController{
 	@Autowired
 	private ILearnSysUserService iLearnSysUserService;
 
+	@Autowired
+	private IRedisService iRedisService;
+
 	@ApiOperation(value = "新增记录", notes = "新增记录")
 	@PostMapping
 	public LearnSysUserVO add(@RequestBody LearnSysUserDTO dto){
+
+		iRedisService.set("hrh","hrh");
+
+		String val = iRedisService.getString("hrh");
+		System.out.println("val():"+val);
+
+
 		//todo 以下需要开发人员手动检查新增字段
 		LearnSysUserDTO ddl = new LearnSysUserDTO();
 		BeanUtils.copyProperties(dto, ddl);
