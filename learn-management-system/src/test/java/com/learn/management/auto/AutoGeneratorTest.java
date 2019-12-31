@@ -24,6 +24,6 @@ public class AutoGeneratorTest {
         ApplicationContext BF = SpringContext.getApplicationContext();
         DataSource ds = (DataSource) BF.getBean("dataSource");
         AutoGenerator auto = new AutoGenerator(ds);
-        auto.createNew("learn-management-system", "resources/mybatis-mapper", "learn_sys_user", "learn_sys_user", "com.learn.management", "learn-management-system-rpc", "com.learn.management.system.rpc","learn-management-system","com.learn.management", "learn");
+//        auto.createNew("learn-management-system", "resources/mybatis-mapper", "learn_sys_timetask", "learn_sys_timetask", "com.learn.management", "learn-management-system-rpc", "com.learn.management.system.rpc","learn-management-system","com.learn.management", "learn");
     }
 }

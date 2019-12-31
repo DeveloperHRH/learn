@@ -33,8 +33,12 @@ dependencies {
 
     //非常用工具包,根据场合自适应
     compile group: 'commons-lang', name: 'commons-lang', version: '2.6'
-    //---------------------------------------------------end------------------------------------------------
 
+    //quartz(定时任务)
+    compile group: 'org.quartz-scheduler',name: 'quartz',version: '2.3.0'
+    //alibaba-JSON
+    compile group: 'com.alibaba',name: 'fastjson',version: '1.2.6'
+    //------------------------------------------end----------------------------------------
 
     //数据请求校验
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-validation', version: '2.1.5.RELEASE'
