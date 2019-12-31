@@ -8,6 +8,11 @@ package com.learn.management.constant;
  **/
 public class SystemEnum {
 
+    //逻辑删除标识,1删除,0非删除
+    public static final Integer DELETE_YES = 1;
+    public static final Integer DELETE_NO = 0;
+
+
     //定时任务 是否运行"0"停止,"1"运行
     public static final String TASK_STOP = "0";
     public static final String TASK_START = "1";

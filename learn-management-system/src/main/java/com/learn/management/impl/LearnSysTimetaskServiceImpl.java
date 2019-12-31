@@ -74,4 +74,9 @@ public class LearnSysTimetaskServiceImpl implements ILearnSysTimetaskService{
 		List<LearnSysTimetaskVO> learnSysTimetaskVOList = learnSysTimetaskDao.list(map);
 		return new PageInfo<>(learnSysTimetaskVOList);
 	}
+
+	@Override
+	public List<LearnSysTimetaskVO> listAll(Map map) {
+		return learnSysTimetaskDao.list(map);
+	}
 }
