@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.learn.management.dao.LearnSysTimetaskDao">
+
+    <sql id="dynamicWhere">
+        <where>
+            <if test="_parameter.containsKey('ids') and ids != null and ids != ''">
+                and id in (${ids})
+            </if>
+            <if test="_parameter.containsKey('id') and id != null and id != ''">
+                and id = #{id}
+            </if>
+            <if test="_parameter.containsKey('cronExpression') and cronExpression != null and cronExpression !=''">
+                and cron_expression like concat(#{cronExpression},'%')
+            </if>
+            <if test="_parameter.containsKey('isEffect') and isEffect != null and isEffect > 0">
+                and is_effect = #{isEffect}
+            </if>
+            <if test="_parameter.containsKey('isStart') and isStart != null and isStart > 0">
+                and is_start = #{isStart}
+            </if>
+            <if test="_parameter.containsKey('taskDescribe') and taskDescribe != null and taskDescribe !=''">
+                and task_describe like concat(#{taskDescribe},'%')
+            </if>
+            <if test="_parameter.containsKey('taskCode') and taskCode != null and taskCode !=''">
+                and task_code like concat(#{taskCode},'%')
+            </if>
+            <if test="_parameter.containsKey('className') and className != null and className !=''">
+                and class_name like concat(#{className},'%')
+            </if>
+            <if test="_parameter.containsKey('createBy') and createBy != null and createBy !=''">
+                and create_by like concat(#{createBy},'%')
+            </if>
+            <if test="_parameter.containsKey('createTime') and createTime != null and createTime > 0">
+                and create_time = #{createTime}
+            </if>
+            <if test="_parameter.containsKey('modifyBy') and modifyBy != null and modifyBy !=''">
+                and modify_by like concat(#{modifyBy},'%')
+            </if>
+            <if test="_parameter.containsKey('modifyTime') and modifyTime != null and modifyTime > 0">
+                and modify_time = #{modifyTime}
+            </if>
+            <if test="_parameter.containsKey('deleted') and deleted != null and deleted >= 0">
+                and deleted = #{deleted}
+            </if>
+        </where>
+    </sql>
+
+    <sql id="baseColumn">
+        id,cron_expression,is_effect,is_start,task_describe,task_code,class_name,create_by,create_time,modify_by,modify_time,deleted
+    </sql>
+
+    <select id="select" resultType="com.learn.management.system.rpc.vo.LearnSysTimetaskVO">
+        select  <include refid="baseColumn"/>   from learn_sys_timetask
+            <include refid="dynamicWhere"/>
+    </select>
+
+    <select id="count" resultType="int">
+        select count(0) from learn_sys_timetask
+        <include refid="dynamicWhere" />
+    </select>
+
+    <select id="list" resultType="com.learn.management.system.rpc.vo.LearnSysTimetaskVO">
+        select  <include refid="baseColumn"/>  from learn_sys_timetask
+        <include refid="dynamicWhere" />
+        <if test="_parameter.containsKey('orderBy') and orderBy!=null">
+            order by ${orderBy}
+        </if>
+    </select>
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id" parameterType="com.learn.management.domain.LearnSysTimetask">
+        insert into learn_sys_timetask (cron_expression,is_effect,is_start,task_describe,task_code,class_name,create_by,create_time,modify_by,modify_time,deleted)
+        values (#{cronExpression},#{isEffect},#{isStart},#{taskDescribe},#{taskCode},#{className},#{createBy},#{createTime},#{modifyBy},#{modifyTime},#{deleted})
+    </insert>
+
+    <sql id="baseSet">
+        <set>
+            <if test="cronExpression != null">
+                cron_expression=#{cronExpression},
+            </if>
+            <if test="isEffect != null">
+                is_effect=#{isEffect},
+            </if>
+            <if test="isStart != null">
+                is_start=#{isStart},
+            </if>
+            <if test="taskDescribe != null">
+                task_describe=#{taskDescribe},
+            </if>
+            <if test="taskCode != null">
+                task_code=#{taskCode},
+            </if>
+            <if test="className != null">
+                class_name=#{className},
+            </if>
+            <if test="createBy != null">
+                create_by=#{createBy},
+            </if>
+            <if test="createTime != null">
+                create_time=#{createTime},
+            </if>
+            <if test="modifyBy != null">
+                modify_by=#{modifyBy},
+            </if>
+            <if test="modifyTime != null">
+                modify_time=#{modifyTime},
+            </if>
+            <if test="deleted != null">
+                deleted=#{deleted},
+            </if>
+        </set>
+    </sql>
+
+    <update id="update" parameterType="com.learn.management.domain.LearnSysTimetask">
+        update learn_sys_timetask 
+         <include refid="baseSet"/>
+        where id=#{id}
+    </update>
+
+    <insert id="insertPart" useGeneratedKeys="true" keyProperty="id" parameterType="com.learn.management.domain.LearnSysTimetask">
+        insert learn_sys_timetask 
+         <include refid="baseSet"/>
+    </insert>
+
+    <update id="updateStatus">
+        update learn_sys_timetask 
+        set status = #{status}
+        where id= #{id}
+    </update>
+
+    <update id="delete">
+        update learn_sys_timetask 
+        set deleted = 1
+        where id= #{id}
+    </update>
+
+</mapper>
